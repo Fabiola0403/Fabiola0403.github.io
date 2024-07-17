@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blessings Shop</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/blessings.png" width="90px" height="90px" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li class="nav-submenu">
+                    <a href="shop.html">Shop<i class="fad fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="cosmeticos.html">Cosmeticos</a></li>
+                        <li><a href="personalizados.html">Personalizados</a></li>
+                        <li><a href="variados.html">Variados</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">Nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li id="cart-icon"><a href="#"><i class="far fa-shopping-bag"></i></a></li>
+                <span id="product-count">0</span> <!-- Contador de productos -->
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+        <!-- carrito de pago-->
+        <div id="cart" class="cart">
+            <h2>Carrito</h2>
+            <div id="cart-items"></div>
+            <button id="proceed-to-payment">Proceder al Pago</button>
+            <button id="close-cart">Cerrar</button>
+        </div> 
+
+    <section id="hero">
+        <h4>Blessings Shop</h4>
+        <h2>¡Ahorre hasta un </h2>
+            <h2>25% de descuento!</h2>
+        <h1>En productos seleccionados</h1>
+        <p>Blessings Shop - Nunca dejes de brillar </p>
+        <button><a href="shop.html">Shop Now</a></button>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/features/f1.png" alt="">
+            <h6>Envío gratuito</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f2.png" alt="">
+            <h6>Pedido en línea</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f3.png" alt="">
+            <h6>Ahorre dinero</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f4.png" alt="">
+            <h6>Promociones</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f5.png" alt="">
+            <h6>Venta Feliz</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f6.png" alt="">
+            <h6>Soporte 24/7</h6>
+        </div>
+    </section>
+
+    <section id="video" class="section-p1">
+        <h2>Conoce más sobre nuestros productos</h2>
+        <div class="video-container">
+            <br>
+            <br>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6AH0YgqtCnM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Productos destacados</h2>
+        <p>Personalizados</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/vaso magico.jpg" width ="350px" height="350px">
+                <div class="des">
+                    <span>Vaso</span>
+                    <h5>Vaso Personalizado magico</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$12</h4>
+                </div>
+                <button class="normal" data-product-id="25" data-product-name="Vaso Personalizado magico" data-product-description="Vaso" data-product-price="12.00" data-product-image="img/vaso magico.jpg">Agregar al carrito</button>
+
+            </div>
+            <div class="pro">
+                <img src="img/pooh.jpg" width ="350px" height="350px" alt="Winnie pooh">
+                <div class="des">
+                    <span>Vaso Térmico</span>
+                    <h5>Vaso Térmico de Winnie The pooh</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$20</h4>
+                </div>
+                <button class="normal" data-product-id="26" data-product-name="Vaso Térmico de Winnie The pooh" data-product-description="Vaso Térmico" data-product-price="20.00" data-product-image="img/pooh.jpg">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/pilotos.jpg" width ="350px" height="350px" >
+                <div class="des">
+                    <span>Marcadores</span>
+                    <h5>Set de Marcadores 48pcs</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$11</h4>
+                </div>
+                <button class="normal" data-product-id="27" data-product-name="Set de Marcadores 48pcs" data-product-description="Marcadores" data-product-price="11.00" data-product-image="img/pilotos.jpg">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/sombras.jpg" width ="350px" height="350px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Sombras de ojos - IGOODCO</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <button class="normal" data-product-id="28" data-product-name="Sombras de ojos - IGOODCO" data-product-description="Adidas" data-product-price="78.00" data-product-image="img/sombras.jpg">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/conjunto.png" width ="350px" height="350px">
+                <div class="des">
+                    <span>producto</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$20</h4>
+                </div>
+                <button class="normal" data-product-id="29" data-product-name="Cartoon Astronaut T-Shirts" data-product-description="Producto" data-product-price="20.00" data-product-image="img/conjunto.png">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/collar dama.png" width ="350px" height="350px" >
+                <div class="des">
+                    <span>Producto</span>
+                    <h5>Collar de Dama</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$15</h4>
+                </div>
+                <button class="normal" data-product-id="30" data-product-name="Collar de Dama" data-product-description="Producto" data-product-price="15.00" data-product-image="img/collar dama.png">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/collar hombre.png" width ="350px" height="350px" >
+                <div class="des">
+                    <span>Accesorio</span>
+                    <h5>Collar para caballero</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$10</h4>
+                </div>
+                <button class="normal" data-product-id="31" data-product-name="Collar para caballero" data-product-description="Accesorio" data-product-price="10.00" data-product-image="img/collar hombre.png">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/pulsera varonil.png" width ="350px" height="350px">
+                <div class="des">
+                    <span>Producto</span>
+                    <h5>Pulseras para hombres</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$12</h4>
+                </div>
+                <button class="normal" data-product-id="32" data-product-name="Pulseras para hombres" data-product-description="Producto" data-product-price="12.00" data-product-image="img/pulsera varonil.png">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4>Accesorios</h4>
+        <h2>Obtén <span>el 20% de descuento</span> – en T-Shirts seleccionados</h2>
+        <button class="normal">Explorar mas</button>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Nueva mercancia</h2>
+        <p>PROXIMAMENTE</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/vaquita crochet.jpeg" width ="350px" height="350px">
+                <div class="des">
+                    <span>Producto</span>
+                    <h5>Vaquita Crochet</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$15</h4>
+                </div>
+                <button class="normal" data-product-id="33" data-product-name="Vaquita Crochet" data-product-description="Producto" data-product-price="15.00" data-product-image="img/vaquita crochet.jpeg">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/Sunflower crochet.jpeg" width ="350px" height="350px">
+                <div class="des">
+                    <span>Producto</span>
+                    <h5>Flores Crochet</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$12</h4>
+                </div>
+                <button class="normal" data-product-id="34" data-product-name="Flores Crochet" data-product-description="Producto" data-product-price="12.00" data-product-image="img/Sunflower crochet.jpeg">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/bolsa crochet.jpeg" width ="350px" height="350px">
+                <div class="des">
+                    <span>producto</span>
+                    <h5>Bolsos Crochet</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$20</h4>
+                </div>
+                <button class="normal" data-product-id="35" data-product-name="Bolsos Crochet" data-product-description="Producto" data-product-price="20.00" data-product-image="img/bolsa crochet.jpeg">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/llaveros crochet.jpeg" width ="350px" height="350px">
+                <div class="des">
+                    <span>producto</span>
+                    <h5>Llaveros Crochet</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$10</h4>
+                </div>
+                <button class="normal" data-product-id="36" data-product-name="Llaveros Crochet" data-product-description="Producto" data-product-price="10.00" data-product-image="img/llaveros crochet.jpeg">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/rubor.jpg" width ="350px" height="350px">
+                <div class="des">
+                    <span>producto</span>
+                    <h5>Blush - Pixi</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$20</h4>
+                </div>
+                <button class="normal" data-product-id="37" data-product-name="Blush - Pixi" data-product-description="Producto" data-product-price="20.00" data-product-image="img/rubor.jpg">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/labial sheglam.jpeg" width ="350px" height="350px">
+                <div class="des">
+                    <span>producto</span>
+                    <h5>Labiales Sheglam</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$7</h4>
+                </div>
+                <button class="normal" data-product-id="38" data-product-name="Labiales Sheglam" data-product-description="Producto" data-product-price="7.00" data-product-image="img/labial sheglam.jpeg">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/lentes.png" width ="350px" height="350px">
+                <div class="des">
+                    <span>producto</span>
+                    <h5>Lentes-Blue Light</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$15</h4>
+                </div>
+                <button class="normal" data-product-id="39" data-product-name="Lentes-Blue Light" data-product-description="Producto" data-product-price="15.00" data-product-image="img/lentes.png">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/linterna lunar.jpeg" width ="350px" height="350px">
+                <div class="des">
+                    <span>producto</span>
+                    <h5>Linterna Lunar</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$25</h4>
+                </div>
+                <button class="normal" data-product-id="40" data-product-name="Linterna Lunar" data-product-description="Producto" data-product-price="25.00" data-product-image="img/linterna lunar.jpeg">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Registrate </h4>
+            <p>Reciba actualizaciones por correo electrónico sobre nuestros nuevos productos y <span>ofertas especiales.</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Direccion de correo">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/blessings.png" width="90px" height="90px" alt="">
+            <h4>Contacto</h4>
+          
+            <p><strong>Teléfono:</strong> +(507) 6246-6956</p>
+            
+            <div class="follow">
+                <h4>Siguenos</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <a href="https://www.instagram.com/_blessings_shop_/" target="_blank"></a><i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">Nosotros</a>
+            <a href="#">Información de envio</a>
+            <a href="#">Politicas de privacidad</a>
+            <a href="#">Terminos y condiciones</a>
+            <a href="#">Contacto</a>
+        </div>
+
+        <div class="col">
+            <h4>My cuenta</h4>
+            <a href="#">Iniciar Sesion</a>
+            <a href="#">Ver carrito</a>
+            <a href="#">Mi lista de deseos</a>
+            <a href="#">Mis pedidos</a>
+            <a href="#">Ayuda</a>
+        </div>
+
+        <div class="col install">
+            
+            <p>Formas de pago  </p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2024,Blessings Shop</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    
+    
+</body>
+
+</html>

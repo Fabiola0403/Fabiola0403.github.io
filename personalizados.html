@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blessings Shop</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/blessings.png" width="90px" height="90px" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li class="nav-submenu">
+                    <a href="shop.html">Shop<i class="fad fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="cosmeticos.html">Cosmeticos</a></li>
+                        <li><a href="personalizados.html">Personalizados</a></li>
+                        <li><a href="variados.html">Variados</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">Nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li id="cart-icon"><a href="#"><i class="far fa-shopping-bag"></i></a></li>
+                <span id="product-count">0</span> <!-- Contador de productos -->
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header">
+
+        <h2>Shop - Personalizados</h2>
+
+        <p>Obten un 20% de descuento en T-Shirts personalizados</p>
+
+    </section>
+
+    <!-- carrito de pago-->
+    <div id="cart" class="cart">
+        <h2>Carrito</h2>
+        <div id="cart-items"></div>
+        <button id="proceed-to-payment">Proceder al Pago</button>
+        <button id="close-cart">Cerrar</button>
+    </div>  
+
+    <section id="product1" class="section-p1">
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/vaso termico.jpeg" alt="Producto 1" class="product-image" width="450" height="450" >
+                <div class="des">
+                    <span>Personalizado</span>
+                    <h5><a href="sproduct.html">Vaso Stanley Style personalizado</a></h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$25</h4>
+                </div>
+                <button class="normal" data-product-id="1" data-product-name="Personalizado" data-product-description="Vaso Stanley Style personalizado" data-product-price="25.00" data-product-image="img/vaso termico.jpeg">Agregar al carrito</button>
+            </div>
+            <div class="pro">
+                <img src="img/Vaso personalizado con nombres.jpeg" alt="Producto 2" class="product-image" width="450" height="450" >
+                <div class="des">
+                    <span>Personalizado</span>
+                    <h5>Vaso con tapa personalizado</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$15</h4>
+                </div>
+                <button class="normal" data-product-id="2" data-product-name="T-Shirt New York" data-product-description="Vaso con tapa personalizado" data-product-price="15.00" data-product-image="img/vaso personalizado con nombres.jpeg">Agregar al carrito</button>
+            </div>
+            <div class="pro">
+                <img src="img/rosa eterna1.jpeg" alt="Producto 1" class="product-image" width="450" height="450" >
+                <div class="des">
+                    <span>Personalizado</span>
+                    <h5>Rosas eternas Rapunzel</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$30</h4>
+                </div>
+                <button class="normal" data-product-id="3" data-product-name="Personalizado" data-product-description="Rosas Eternas Rapunzel" data-product-price="30.00" data-product-image="img/rosa eterna1.jpeg">Agregar al carrito</button>
+            </div>
+            <div class="pro">
+                <img src="img/rosa eterna 2.jpeg" width="450" height="450" alt="">
+                <div class="des">
+                    <span>Personalizado</span>
+                    <h5>Rosa eternas Messi</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$30</h4>
+                </div>
+                <button class="normal" data-product-id="4" data-product-name="Personalizado" data-product-description="Rosas Eternas Messi" data-product-price="30.00" data-product-image="img/rosa eterna 2.jpeg">Agregar al carrito</button>
+
+            </div>
+            <div class="pro">
+                <img src="img/llavero 1.jpeg" width="450" height="450" alt="">
+                <div class="des">
+                    <span>Personalizado</span>
+                    <h5>LLaveros personalizados Spotify</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$10</h4>
+                </div>
+                <button class="normal" data-product-id="5" data-product-name="Personalizado" data-product-description="llavero personalizados Spotify" data-product-price="10.00" data-product-image="img/llavero 1.jpeg">Agregar al carrito</button>
+
+            </div>
+            <div class="pro">
+                <img src="img/llavero 2.jpeg" width="450" height="450" alt="">
+                <div class="des">
+                    <span>Personalizado</span>
+                    <h5>Llavero perzonalizado inicial</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$10</h4>
+                </div>
+                <button class="normal" data-product-id="6" data-product-name="Personalizado" data-product-description="Llavero personalizado" data-product-price="10.00" data-product-image="img/llavero 2.jpeg">Agregar al carrito</button>
+
+            </div>
+            <div class="pro">
+                <img src="img/pooh.jpg" width="450" height="450" alt="">
+                <div class="des">
+                    <span>Personalizado</span>
+                    <h5>Vaso personalizado winnie Pooh</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$20</h4>
+                </div>
+                <button class="normal" data-product-id="7" data-product-name="Personalizado" data-product-description="Vaso Winnie Pooh" data-product-price="20.00" data-product-image="img/pooh.jpg">Agregar al carrito</button>
+
+            </div>
+            <div class="pro">
+                <img src="img/vaso magico.jpg" width="450" height="450" alt="">
+                <div class="des">
+                    <span>T-Shirt</span>
+                    <h5>Vaso magico con nombre </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$10</h4>
+                </div>
+                <button class="normal" data-product-id="8" data-product-name="Personalizado" data-product-description="Vaso magico con nombre" data-product-price="10.00" data-product-image="img/vaso magico.jpg">Agregar al carrito</button>
+
+            </div>
+
+            
+    </section>
+
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Registrate </h4>
+            <p>Reciba actualizaciones por correo electrónico sobre nuestros nuevos productos y <span>ofertas especiales.</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Direccion de correo">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/blessings.png" width="90px" height="90px" alt="">
+            <h4>Contacto</h4>
+          
+            <p><strong>Teléfono:</strong> +(507) 6246-6956</p>
+            
+            <div class="follow">
+                <h4>Siguenos</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <a href="https://www.instagram.com/_blessings_shop_/" target="_blank"></a><i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">Nosotros</a>
+            <a href="#">Información de envio</a>
+            <a href="#">Politicas de privacidad</a>
+            <a href="#">Terminos y condiciones</a>
+            <a href="#">Contacto</a>
+        </div>
+
+        <div class="col">
+            <h4>Mi cuenta</h4>
+            <a href="#">Iniciar Sesion</a>
+            <a href="#">Ver carrito</a>
+            <a href="#">Mi lista de deseos</a>
+            <a href="#">Mis pedidos</a>
+            <a href="#">Ayuda</a>
+        </div>
+
+        <div class="col install">
+            
+            <p>Formas de pago  </p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2024,Blessings Shop</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

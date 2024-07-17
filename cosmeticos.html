@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blessings Shop</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/blessings.png" width="90px" height="90px" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li class="nav-submenu">
+                    <a href="shop.html">Shop<i class="fad fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="cosmeticos.html">Cosmeticos</a></li>
+                        <li><a href="personalizados.html">Personalizados</a></li>
+                        <li><a href="variados.html">Variados</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">Nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li id="cart-icon"><a href="#"><i class="far fa-shopping-bag"></i></a></li>
+                <span id="product-count">0</span> <!-- Contador de productos -->
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header">
+
+        <h2>Shop - Cosmeticos</h2>
+
+        <p>Obten un 20% de descuento en T-Shirts personalizados</p>
+
+    </section>
+
+    <!-- carrito de pago-->
+    <div id="cart" class="cart">
+        <h2>Carrito</h2>
+        <div id="cart-items"></div>
+        <button id="proceed-to-payment">Proceder al Pago</button>
+        <button id="close-cart">Cerrar</button>
+    </div>  
+
+    <section id="product1" class="section-p1">
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/labial 1.jpg" alt="Producto 1" class="product-image" width ="250px" height="250px">
+                <div class="des">
+                    <span>Cosmeticos</span>
+                    <h5><a href="sproduct.html">Labial - Studio Look</a></h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$9.50</h4>
+                </div>
+                <button class="normal" data-product-id="17" data-product-name="Labial - Studio Look" data-product-description="Cosmeticos" data-product-price="9.50" data-product-image="img/labial 1.jpg">Agregar al carrito</button>
+            </div>
+            <div class="pro">
+                <img src="img/magnetic.jpg" alt="Producto 1" class="product-image" width ="250px" height="250px">
+                <div class="des">
+                    <span>Cosmeticos</span>
+                    <h5>Magnetic - Lash</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$15</h4>
+                </div>
+                <button class="normal" data-product-id="18" data-product-name="Magnetic - Lash" data-product-description="Cosmeticos" data-product-price="15.00" data-product-image="img/magnetic.jpg">Agregar al carrito</button>
+            </div>
+            <div class="pro">
+                <img src="img/polvo compacto.png" alt="Producto 1" class="product-image" width ="250px" height="250px">
+                <div class="des">
+                    <span>Cosmeticos</span>
+                    <h5>Polvo Compacto - Control Brillo</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$15</h4>
+                </div>
+                <button class="normal" data-product-id="19" data-product-name="Polvo Compacto - Control Brillo" data-product-description="Cosmeticos" data-product-price="15.00" data-product-image="img/polvo compacto.png">Agregar al carrito</button>
+            </div>
+            <div class="pro">
+                <img src="img/sombras studio look .png" alt="Producto 1" class="product-image" width="250" height="250" alt="">
+                <div class="des">
+                    <span>Cosmeticos</span>
+                    <h5>Sombra Studio look</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$16.50</h4>
+                </div>
+                <button class="normal" data-product-id="20" data-product-name="Sombra Studio look" data-product-description="Cosmeticos" data-product-price="16.50" data-product-image="img/sombras studio look .png">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/primer.jpg" width="250" height="250" alt="">
+                <div class="des">
+                    <span>Cosmetico</span>
+                    <h5>Primer - Studio Look</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$14.99</h4>
+                </div>
+                <button class="normal" data-product-id="21" data-product-name="Primer - Studio Look" data-product-description="Cosmetico" data-product-price="14.99" data-product-image="img/primer.jpg">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/rubor liquido.jpg" width="250" height="250" alt="">
+                <div class="des">
+                    <span>Cosmeticos</span>
+                    <h5>Rubor Liquido - Studio Look</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$11.50</h4>
+                </div>
+                <button class="normal" data-product-id="22" data-product-name="Rubor Liquido - Studio Look" data-product-description="Cosmeticos" data-product-price="11.50" data-product-image="img/rubor liquido.jpg">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/iluminador .png" width="250" height="250" alt="">
+                <div class="des">
+                    <span>Cosmeticos</span>
+                    <h5>Iluminador - Studio Look</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$12.99</h4>
+                </div>
+                <button class="normal" data-product-id="23" data-product-name="Iluminador - Studio Look" data-product-description="Cosmeticos" data-product-price="12.99" data-product-image="img/iluminador .png">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <img src="img/base studio look.png" width="250" height="250" alt="Base">
+                <div class="des">
+                    <span>Cosmeticos</span>
+                    <h5>Base - Studio Look</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$17.50</h4>
+                </div>
+                <button class="normal" data-product-id="24" data-product-name="Base - Studio Look" data-product-description="Cosmeticos" data-product-price="17.50" data-product-image="img/base studio look.png">Agregar al carrito</button>
+
+                <!-- 
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+
+            
+    </section>
+
+   
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Registrate </h4>
+            <p>Reciba actualizaciones por correo electrónico sobre nuestros nuevos productos y <span>ofertas especiales.</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Direccion de correo">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/blessings.png" width="90px" height="90px" alt="">
+            <h4>Contacto</h4>
+          
+            <p><strong>Teléfono:</strong> +(507) 6246-6956</p>
+            
+            <div class="follow">
+                <h4>Siguenos</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <a href="https://www.instagram.com/_blessings_shop_/" target="_blank"></a><i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">Nosotros</a>
+            <a href="#">Información de envio</a>
+            <a href="#">Politicas de privacidad</a>
+            <a href="#">Terminos y condiciones</a>
+            <a href="#">Contacto</a>
+        </div>
+
+        <div class="col">
+            <h4>Mi cuenta</h4>
+            <a href="#">Iniciar Sesion</a>
+            <a href="#">Ver carrito</a>
+            <a href="#">Mi lista de deseos</a>
+            <a href="#">Mis pedidos</a>
+            <a href="#">Ayuda</a>
+        </div>
+
+        <div class="col install">
+            
+            <p>Formas de pago  </p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2024,Blessings Shop</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
